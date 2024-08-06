@@ -13,6 +13,7 @@ import org.slf4j.LoggerFactory;
 import com.example.bookmanagement.model.*;
 import com.example.bookmanagement.util.*;
 public class BookDAO {
+//added my first comment on bookdao program
 	private static final Logger logger = LoggerFactory.getLogger(BookDAO.class);
 	private Connection getConnection() throws SQLException {
 		return DatabaseUtil.getConnection();
